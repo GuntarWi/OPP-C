@@ -311,7 +311,7 @@ GenerateHtmalTable()
           var sheet = xlsx.xl.worksheets['sheet1.xml'];
 
           // jQuery selector to add a border
-          $('row c[r]', sheet).attr('s', ['25','51']);
+          $('row c[r]', sheet).attr('s', '25');
           $('row:first c', sheet).attr('s', '47');
         },
       }]
